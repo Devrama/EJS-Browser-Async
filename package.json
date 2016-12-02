@@ -1,0 +1,43 @@
+{
+  "name": "ejs-browser-async",
+  "version": "0.1.0",
+  "description": "Extension for EJS template engine to enable asynchronous template load.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devrama/EJS-Browser-Async.git"
+  },
+  "keywords": [
+    "EJS",
+    "Extension",
+    "Template",
+    "Browser",
+    "Asynchronous",
+    "Include in Browser"
+  ],
+  "author": "WON JONG YOO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Devrama/EJS-Browser-Async/issues"
+  },
+  "homepage": "https://github.com/Devrama/EJS-Browser-Async#readme",
+  "dependencies": {
+    "ejs": "^2.4.2"
+  },
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "browserify-shim": "^3.8.12",
+    "uglify": "^0.1.5"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "ejs": "global:ejs"
+  }
+}
