@@ -42,3 +42,6 @@ Example code is located in `/example` directory.
     }
   );
 ```
+
+# License
+MIT
