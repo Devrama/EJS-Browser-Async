@@ -1,6 +1,6 @@
 {
   "name": "ejs-browser-async",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extension for EJS template engine to enable asynchronous template load.",
   "main": "index.js",
   "scripts": {
