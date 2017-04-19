@@ -8,7 +8,7 @@ Example code is located in `/example` directory.
 
 ## How to use
 
-### First, load EJS and this extension in your HTNL page.
+### First, load EJS and this extension in your HTML page.
 ```html
   <script src="ejs-2.4.2.min.js" type="text/javascript"></script>
   <script src="ejs-browser-async.min.js" type="text/javascript"></script>
@@ -19,7 +19,7 @@ Example code is located in `/example` directory.
 ### ejs.renderAsync(path, data, callback)
 * **path**: relative to the page, or absolute path of the ejs template file
 * **data**: parameters that you want to pass to the templates
-* **callback**: callback function that gives you rendered string. callback has two arguments, `error` and `rendered`. 
+* **callback**: callback function that gives you rendered string. callback has two arguments, `error` and `rendered`.
     * **error**: Error object if error occurs, otherwise null.
     * **rendered**: Rendered string result.
 
